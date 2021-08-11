@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    --roxo: #72005F;
+    --bege: #BAA193;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    margin-top: 10vh;
+}
+
+.content {
+    margin-top: 15vh;
+    margin-right: 20vh;
+}
+
+p {
+    color: var(--bege);
+    font-size: 8vh;
+}
+
+strong {
+    color: var(--roxo);
+    font-size: 20vh;
+    line-height: 17vh;
+    margin-left: 2vh;
+}
+
+.button button {
+    margin-top: 10vh;
+    padding: 3vh 11vh;
+    border-radius: 3vh;
+    border: none;
+    font-size: 5vh;
+    background-color: var(--roxo);
+    color: white;
+}
