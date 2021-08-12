@@ -10,6 +10,9 @@
         console.log(data.slip.advice)
         console.log(data.slip.id)
 
+        document.getElementById("advice").innerHTML = '"' + data.slip.advice + '"'
+
+        
         // document.getElementById("clicou").innerHTML = data.slip.advice
     }
     

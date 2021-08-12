@@ -1,0 +1,56 @@
+:root {
+    --roxo: #72005F;
+    --bege: #BAA193;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    padding: 4vh 5vh 10vh 5vh;
+}
+.title p {
+    color: var(--bege);
+    font-size: 3vh;
+    font-weight: 700;
+}
+.title strong {
+    color: var(--roxo);
+    font-size: 5vh;
+    margin-left: 1vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.content { 
+    margin-top: 10vh;
+    margin-right: 20vh;
+    width: 20%;
+}
+
+.content span {
+    color: var(--bege);
+    margin-top: 100vh;
+    font-size: 3vh;
+    margin-left: 25vh;
+}
+
+.content p {
+    color: var(--roxo);
+    font-weight: 700;
+    font-size: 5vh;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 2vh;
+    height: 400px;
+    width: 300px;
+}
